@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tienda de ropa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <section>
+            <nav class="navbar navbar-expand-md bg-red">
+                <div class="container">
+                <a class="navbar-brand fw-bold fs-3" href="#">👕Ropa Ya👕</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto fw-bold fs-4">
+                      <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./Page/Catalogo.html"">Catalogo</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Ofertas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Iniciar Sesion</a>
+                      </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="bg-dark text-white">
+          <div class="container py-4">
+            <form class="d-flex " role="search">
+              <input class="form-control md-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+          <div class="container py-5">
+              <h1 class="display-1 fw-bolder text-center">Ofertas</h1>
+          </div>
+          <div class="container py-5">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner rounded">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="./Assets/oferta1.jpg" class="d-block w-100" alt="Campera" height="600px" width="300px">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Campera termica</h5>
+                    <p>La Campera Condor es una prenda térmica muy liviana y cómoda, está confeccionada en tela SoftShell Four Way con costuras reforzadas, forrería velour, vivos reflectivos, cierres impermeables YKK y velcros ajustables en la manga. Un producto de alto rendimiento y protección que te viste.</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="./Assets/Oferta2.jpg" class="d-block w-100" alt="Camisa" height="600px" width="300px">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Camisa para hombre</h5>
+                    <p>Camisa para hombre lisa manga larga variedad de colores talles especiales</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./Assets/Oferta3.jpg" class="d-block w-100" alt="joggin" height="600px" width="300px">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Pantalón Cargo</h5>
+                    <p>Pantalón Cargo Hombre de Gabardina Elastizada, Jogger Con Bolsillos al Costado - Excelente calce y confección.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="container py-5">
+              <div class="row gy-5">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./Assets/Camiseta.jpg" class="card-img-top" alt="Camiseta">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bolder">Remera</h5>
+                      <p class="card-text">Remera roja de Algodón de excelente calidad</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./Assets/Campera.jpg" class="card-img-top" alt="Campera">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bolder">Campera inflada</h5>
+                      <p class="card-text">Campera inflada, clásica y liviana. Ideal para este invierno, excelente calidad.</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="card" style="width: 18rem;">
+                    <img src="./Assets/Jeans.jpg" class="card-img-top" alt="Jean">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bolder">Jean Elastizado chupin</h5>
+                      <p class="card-text">Jean Elastizado chupin - Excelente calce y confección.</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <footer>
+      <section class="bg-violet text-dark">
+        <div class="row container py-5">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Ayuda/Sugerencias</h5>
+                <p class="card-text">Envianos tus sugerencias o comentarios/Preguntas Frecuentes.</p>
+                <a href="#" class="btn btn-primary">Contacto</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Trabaja con Nosotros</h5>
+                <p class="card-text">Mandanos tu Curriculum Vitae y tene la posibilidad de trabajar en Ropa Ya.</p>
+                <a href="#" class="btn btn-primary">Contacto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    
+</body>
+</html>

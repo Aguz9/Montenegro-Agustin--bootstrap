@@ -1,0 +1,61 @@
+.bg-red{
+    background-color: #672544;
+    height: 150px;
+}
+
+.bg-red a{
+    color: #fe7363;
+}
+
+.bg-red a:hover{
+    color: #ffaf6f;
+}
+
+.bg-dark{
+    background-image:linear-gradient(#88324a,#ffaf6f);
+}
+
+.text-center{
+    color: #672544;
+    transition: color 0.3s;
+}
+
+.text-center:hover{
+    color: #ffaf6f;
+}
+
+.carousel{
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 1);
+}
+
+.card{
+    background-color: #672544;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 1);
+    transition: background-color 1s, transform 0.5s;
+}
+
+.card:hover{
+    background-color:#ffaf6f;
+    transform: translatey(-15px);
+}
+
+.card-title{
+    color:#fe7363;
+}
+
+.card-text{
+    color: #ffed55;
+}
+
+.btn-primary{
+    color: #000;
+    background-color: #fffbed;
+}
+
+.btn-primary:hover{
+    background-color: #672544;
+}
+
+.bg-violet{
+    background-image:linear-gradient(#ffaf6f,#88324a);
+}
